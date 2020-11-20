@@ -1,0 +1,86 @@
+body
+{
+	background-color: #eeeeff;
+	font-family: Georgia;
+}
+
+@font-face
+{
+	font-family: Pompadur;
+	src: url(Pompadur.ttf);
+}
+
+header
+{
+	background-color: #ffffff;
+	height: 100px; 
+	padding: 15px;
+	
+	font-family: Pompadur;
+}
+
+article
+{
+	padding: 15px; 
+	margin: 15px;
+	font-family: Segoe Print;
+}
+
+article.code
+{
+	background-color: #ffccaa;
+}
+
+article.interests
+{
+	background-color: #ffff00;
+}
+
+article.formula
+{
+	background-color: #ccaa99;
+}
+
+article.myquote
+{
+	background-color: #f45e67;
+}
+
+article.contact
+{
+	background-color: #a956aa;
+}
+
+article.animal
+{
+	/*align-self: flex-end;*/
+	background-color: #53f5c1;
+}
+
+section
+{
+	width: 50%;
+}
+
+section.right
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 1028px;
+}
+
+section.left
+{
+	float: left;
+}
+
+div
+{
+	font-family: Times New Roman;
+}
+
+footer
+{
+	font-family: Monotype Corsiva;
+}
